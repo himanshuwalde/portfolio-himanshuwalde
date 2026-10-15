@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# Debug / temp files
+tmp-*.png
+*.tmp
+*.temp
+.mcheck-shots/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel / Netlify
+.vercel
+.netlify
+
+# Turbo
+.turbo
+
+# Vite
+.vite-tsconfig-*.json
+
+# Coverage
+.nyc_output/
+
+# Package managers
+.yarn-integrity
+yarn.lock
+pnpm-lock.yaml
+
+# Turbo / Bun
+.turbo
+
+# Optional: ignore local claude settings
+.claude/settings.local.json
+
+# Optional: ignore oxlint cache
+.oxlint/
