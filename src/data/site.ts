@@ -1,4 +1,4 @@
-// Site-wide basics used in the nav, footer and certificate placeholders.
+// Site-wide basics used in the nav, footer and certificate placeholders..
 export const site = {
   name: "Himanshu Walde",
   shortName: "HW", // logo in the navbar
